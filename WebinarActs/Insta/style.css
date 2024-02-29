@@ -1,0 +1,381 @@
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f5f7;
+}
+
+/*navigation*/
+
+.navigator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;;
+  flex-direction: row;
+  height: 7vh;
+  padding-left: 25%;
+  padding-right: 24%;
+  border-bottom: #c5c5c5 2px solid;
+}
+
+.instalogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}
+
+img.logoins {
+  height: 80px;
+}
+
+.searchBox {
+  height: 30px;
+  padding: 20px;
+  margin-right: 20px;
+  background-color: #eeeeee;
+  border: #f0f0f0;
+  width: 30%;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.topIcons {
+  padding-left: 20px;
+}
+.icon {
+  height: 40px;
+  width: auto;
+  padding-left: 30px;
+}
+
+.profile {
+  border-radius: 50%;
+  height: 40px;
+  margin-left: 30px;
+}
+
+/*row-column*/
+.row{
+  display: flex;
+}
+
+.column1 {
+  flex: 60%;
+}
+
+
+/*header*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  margin-top: 30px;
+  margin-left: 40%;
+  margin-right: 4%;
+  padding: 15px;
+  border: #c5c5c5 2px solid;
+}
+
+.headPics {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 80px;
+}
+
+.items {
+  padding-right: 50px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.items p {
+  text-align: center;
+}
+.individual {
+  height: 100px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, rgb(255, 230, 0), rgb(255, 0, 128) 80%);
+  padding: 5px;
+}
+
+/*insta post*/
+
+.InstaPost{
+  margin-top: 30px;
+  margin-left: 40%;
+  margin-right: 4%;
+}
+
+.other{
+  height: 70px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, rgb(255, 230, 0), rgb(255, 0, 128) 80%);
+  padding: 5px;
+}
+
+.nameInstaPost {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: #c5c5c5 2px solid;
+  background-color: #ffffff;
+  padding: 15px;
+}
+
+.nameInstaPost p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 71%;
+}
+
+.option {
+  height: 30px;
+  width: auto;
+  margin-right: 3%;
+}
+
+img.empoleon {
+  width: 100%;
+  height: auto;
+}
+
+
+/*react post*/
+
+.react-post {
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+  height: 21vh;
+  border-left: #c5c5c5 solid 2px;
+  border-right: #c5c5c5 solid 2px;
+  border-bottom: #c5c5c5 solid 2px;
+  margin-left: 40%;
+  margin-right: 4%;
+}
+
+.react-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.react-1 {
+  height: 40px;
+  width: auto;
+  margin-left: 2%;
+}
+
+.react-2 {
+  height: 40px;
+  width: auto;
+}
+
+.react-3 {
+  height: 40px;
+  width: auto;
+  margin-right: 70%;
+}
+.react-4 {
+  height: 40px;
+  width: auto;
+  margin-right: 3%;
+}
+
+.likes {
+  margin-left: 2%;
+  padding-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  width: auto;
+}
+
+.comment {
+  margin-left: 2%;
+  padding-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  width: auto;
+}
+
+.first {
+  color: rgb(123, 123, 123);
+}
+
+.second {
+  color: black;
+}
+
+.seemore {
+  margin-left: 2%;
+  padding-top: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  width: auto;
+  color: rgb(123, 123, 123);
+}
+
+.days {
+  margin-left: 2%;
+  padding-top: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  width: auto;
+  color: rgb(123, 123, 123);
+}
+
+/*form*/
+
+.form {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 30px;
+  margin-left: 40%;
+  margin-right: 4%;
+  height: 70px;
+  border-left: #c5c5c5 solid 2px;
+  border-right: #c5c5c5 solid 2px;
+  border-bottom: #c5c5c5 solid 2px;
+}
+
+.formItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.smile {
+  height: 40px;
+  width: auto;
+  margin-left: 2%;
+}
+
+.bluePost {
+  color: rgba(1, 179, 255, 0.723);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 3%;
+  font-size: 20px;
+}
+
+.Add {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 65%;
+  font-size: 20px;
+  color: rgb(123, 123, 123);
+}
+
+/*Another Column*/
+.column2 {
+  flex: 35%;
+}
+
+.ProfileSwitch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 7%;
+  margin-right: 65%;
+}
+
+.PPswitch img {
+  height: 100px;
+  border-radius: 50%;
+  border:#c5c5c5 2px solid;
+}
+
+.nameSwitch {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding-right: 60px;
+
+}
+
+.namekohehe {
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+
+.namekoulit {
+  color: rgb(123, 123, 123);
+}
+
+.switchBlue {
+  color: rgba(1, 179, 255, 0.723);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.suggestionsForYou {
+  display: flex;
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 65%;
+  font-size: 20px;
+}
+
+.Sgs {
+  color: rgb(123, 123, 123);
+}
+
+.person1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 65%;
+}
+
+.personSgs img{
+  height: 70px;
+  width: auto;
+  border-radius: 50%;
+  border:#c5c5c5 2px solid;
+}
+
+.nswitch {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding-right: 90px;
+}
+
+.nswitch1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding-right: 70px;
+}
+
+.nswitch2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding-right: 130px;
+}
+
+.nswitch3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding-right: 85px;
+}
+
+.last {
+  margin-top: 4%;
+}
+
+.lasttext {
+  color:#c5c5c5;
+  font-family: Arial, Helvetica, sans-serif
+  ;
+  font-size: 15px;
+}
